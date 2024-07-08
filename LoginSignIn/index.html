@@ -75,7 +75,7 @@
                 <label>Password</label>
               </div>
               <div class="btn" id="register">
-                <button class="sign-btn">Sign Up</button>
+                <a href="#" class="sign-btn">Sign Up</a>
               </div>
 
 
@@ -153,7 +153,7 @@
           // Signed in 
           const user = userCredential.user;
           console.log(user);
-          alert("Registration successfully!!");
+          alert("Registration successfully!!\n We send you an email to verify your account!");
           sendEmailVerification(auth.currentUser)
             .then(() => {
               // Email verification sent!
