@@ -169,7 +169,8 @@ label {
   margin-bottom: 2rem;
   transition: 0.3s;
   text-align:center;
-  justify-content:center;
+  justify-content: center;
+  padding: 10px;
 }
 
 .sign-btn a {
