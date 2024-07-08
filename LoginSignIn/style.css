@@ -169,6 +169,12 @@ label {
   margin-bottom: 2rem;
   transition: 0.3s;
   text-align:center;
+  justify-content:center;
+}
+
+.sign-btn a {
+  text-decoration: none;
+  
 }
 
 .sign-btn:hover {
