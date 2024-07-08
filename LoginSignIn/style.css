@@ -168,6 +168,7 @@ label {
   font-size: 0.8rem;
   margin-bottom: 2rem;
   transition: 0.3s;
+  text-align:center;
 }
 
 .sign-btn:hover {
